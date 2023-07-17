@@ -20,8 +20,8 @@ const Login = () => {
   return (
     <div>
        <div className="login-page">
-        <h1>Login Here!</h1>
-        <button  onClick={signIn}className="button">Sign In With Google</button>
+        <h1 className='mt-10 text-2xl'>Login Here!</h1>
+        <button  onClick={signIn}className="button mt-10">Sign In With Google</button>
        </div>
     </div>
   )

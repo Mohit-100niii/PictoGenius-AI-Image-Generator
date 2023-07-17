@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import { Link } from "react-router-dom";
 import { Auth } from "../firebase-config";
 import { useAuthState } from "react-firebase-hooks/auth";
@@ -17,7 +17,10 @@ const NavbarTop = () => {
   return (
     <div>
       <header>
-        <h3 className="imggen">ImageGen</h3>
+        <h3 className="imggen font-mono">
+        <Link to="/">
+        PictoGenius
+        </Link></h3>
         <div className="menu">
           <Link className="link" to="/">
             Home
@@ -42,8 +45,9 @@ const NavbarTop = () => {
         </div>
       </header>
     </div>
-   
+
   );
 };
 
 export default NavbarTop;
+
