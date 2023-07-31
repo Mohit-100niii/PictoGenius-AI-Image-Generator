@@ -28,7 +28,7 @@ const Provider = new GoogleAuthProvider();
 const db = getFirestore(app)
 const storage = getStorage(app)
 
-const API_TOKEN = "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";
+const API_TOKEN = "YOUR_KEY";
 
 
 
